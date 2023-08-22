@@ -1,25 +1,22 @@
-# AME Wizard Core
+# AME 向导核心
+AME 向导使用的核心功能。
 
-Core functionality used by AME Wizard.
+# 命令行使用情况
+即将推出。
 
-## CLI Usage
+# 汇编
+克隆存储库
 
-Coming soon.
+Git 克隆 https://git.ameliorated.info/Styris/trusted-uninstaller-cli.git
 
-## Compilation
+Open TrustedUninstaller.sln with Visual Studio 或 JetBrains Rider
 
-1. Clone the repository
-	
-    git clone https://git.ameliorated.info/Styris/trusted-uninstaller-cli.git
+将配置设置为“发布”
 
-2. Open TrustedUninstaller.sln with Visual Studio or JetBrains Rider
+构建可信卸载程序.CLI
 
-3. Set the configuration to **Release**
+# 许可证
+该工具具有 MIT 许可证，该许可证放弃了管理源代码使用的任何要求或规则，从而从等式中删除了政治。
 
-4. Build TrustedUninstaller.CLI
-
-## License
-This tool has an [MIT license](https://en.wikipedia.org/wiki/MIT_License), which waives any requirements or rules governing the source code’s use, removing politics from the equation.
-
-Since this project makes major alterations to the operating system and has the ability to install software during this process, it is imperative that we **provide its source code for auditing purposes.**  
-This has not only helped us build trust, and make our project stand out among the crowd, but has also led to many community contributions along the way.
+由于该项目对操作系统进行了重大更改，并且在此过程中能够安装软件，因此我们必须提供其源代码以进行审核。
+这不仅帮助我们建立了信任，使我们的项目在人群中脱颖而出，而且还在此过程中为许多社区做出了贡献。
